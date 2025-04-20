@@ -30,7 +30,7 @@ st.set_page_config(
 )
 
 # Display title and description
-st.title("Machine Learning Model Dashboard")
+st.title("Emmanuel.O Machine Learning Model Dashboard")
 st.markdown("""
 This dashboard provides interactive visualization of machine learning model performance,
 training metrics, and predictions. Upload your dataset or use the sample data to get started.
@@ -51,7 +51,7 @@ st.sidebar.header("Model Configuration")
 uploaded_file = st.sidebar.file_uploader("Upload your dataset (CSV)", type=["csv"])
 
 # Function to load sample Iris dataset
-@st.cache_data  # Cache the function result
+@st.cache_data
 def load_sample_data():
     from sklearn.datasets import load_iris
     iris = load_iris()
