@@ -12,6 +12,20 @@ A comprehensive, interactive dashboard for machine learning model development, e
 ![Dashboard Screenshot](screenshots/dashboard.png)
 *Interactive machine learning dashboard showing model performance metrics and visualizations*
 
+## 📸 Visualizations
+
+### Learning Curve
+![Learning Curve](screenshots/learning_curve.png)
+*Learning curve showing model performance across different training set sizes*
+
+### Model Performance
+![Model Performance](screenshots/model_performance.png)
+*Visualization of model performance metrics including accuracy and cross-validation scores*
+
+### Classification Report
+![Classification Report](screenshots/classification_report.png)
+*Detailed classification report showing precision, recall, and F1-score for each class*
+
 ## 🚀 Features
 
 ### Data Management
@@ -135,4 +149,4 @@ For support, please open an issue in the GitHub repository or contact the mainta
 
 ---
 
-Made with ❤️ by [Emmanuel.O] 
+Made with ❤️ by Emmanuel.O
